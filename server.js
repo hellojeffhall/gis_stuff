@@ -2,11 +2,12 @@ var http = require('http');
 var fs = require('fs');
 
 var files_whitelist = {
-  '/'           : 'tool.html',
+  '/'           : 'tool.html' ,
+  '/index.html' : 'tool.html' ,
+  '/tool.js'    : 'tool.js'   ,
+  '/tool.css'   : 'tool.css'  ,
   '/fatal.html' : 'fatal.html',
-  '/index.html' : 'tool.html',
-  '/tool.js'    : 'tool.js',
-  '/tool.css'   : 'tool.css'
+  '/fatal.js'   : 'fatal.js'  
 };
 
 
